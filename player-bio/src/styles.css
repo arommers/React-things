@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "IBM Plex Mono", sans-serif;
+  background-color: #f7f7f7;
+}
+
+.card {
+  width: 450px;
+  margin: 40px auto; /* Center the card horizontally */
+  border: 4px solid #222;
+  padding: 16px; /* Added padding for better spacing */
+  background-color: #fff; /* Background color for better contrast */
+  border-radius: 8px; /* Slightly rounded corners for the card */
+}
+
+.profile {
+  display: flex; /* Aligns avatar and player name */
+  align-items: center; /* Vertically centers the items */
+  margin-bottom: 16px; /* Space between profile and intro */
+}
+
+.avatar {
+  width: 50px; /* Set width for circular avatar */
+  height: 50px; /* Set height for circular avatar */
+  border-radius: 50%; /* Make the avatar circular */
+  margin-right: 10px; /* Space between avatar and name */
+}
+
+.player-name {
+  margin-bottom: 4px; /* Margin below player name */
+  font-size: 1.5rem; /* Font size for the player name */
+}
+
+.intro {
+  margin-bottom: 16px; /* Space between intro and skill list */
+  font-size: 1rem; /* Font size for intro text */
+}
+
+.skill-list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.skill {
+  padding: 2px 12px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
